@@ -124,3 +124,112 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #4CAF50;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+nav ul li a.active {
+    background-color: #333;
+}
+
+/* Contact Section */
+.card {
+    width: 80%; /* Increased width for a wider layout */
+    margin: 50px auto; /* Center the card */
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Flex layout for the contact section */
+.contact-container {
+    display: flex;
+    justify-content: space-between; /* Space between the image and the contact info */
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap; /* Allow items to wrap in smaller screens */
+    margin: 30px;
+}
+
+/* Adjust the image and contact info for better layout */
+.contact-image {
+    width: 40%; /* Set a fixed width for the image */
+}
+
+.contact-image img {
+    width: 100%; /* Make image take up full container width */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    width: 55%; /* Set the contact info width */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+.contact-details p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.contact-details p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact-details p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
